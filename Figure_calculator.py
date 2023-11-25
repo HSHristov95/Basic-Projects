@@ -51,3 +51,36 @@ def calculate_rectange(a, b, info):
         result == 'Wrong!'
 
     return result
+
+figure = input()
+
+if figure == 'square':
+    a = int(input())
+    info = input()
+    if info == 'area':
+        print(calculate_square(a, info))
+    elif info == 'circumference':
+        print(calculate_square(a, info))
+    else:
+        print('Wrong!')
+
+if figure == 'circle':
+    r = int(input())
+    info = input()
+    if info == 'area':
+        print(calculate_square(r, info))
+    elif info == 'circumference':
+        print(calculate_square(r, info))
+    else:
+        print('Wrong!')
+
+if figure == 'rectangle':
+    a = int(input())
+    b = int(input())
+    info = input()
+    if info == 'area':
+        print(calculate_square(a, b, info))
+    elif info == 'circumference':
+        print(calculate_square(a, b, info))
+    else:
+        print('Wrong!')
