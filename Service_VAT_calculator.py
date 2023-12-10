@@ -1,13 +1,13 @@
-eu_countries_list = ['Austria', 'Belgium', 'Bulgaria', 'Cyprus', 'Czech Republic', 'Denmark',
-'Estonia', 'Finland', 'France', 'Germany', 'Greece', 'Hungary', 'Ireland', 'Italy', 'Latvia',
-'Lithuania', 'Luxembourg', 'Malta', 'Netherlands', 'Poland', 'Portugal', 'Romania' , 'Slovakia',
-'Slovenia', 'Spain', 'Sweden']
+eu_countries_list = ['Austria', 'Belgium', 'Bulgaria', 'Croatia', 'Cyprus', 'Czech Republic', 
+'Denmark', 'Estonia', 'Finland', 'France', 'Germany', 'Greece', 'Hungary', 'Ireland', 'Italy', 
+'Latvia', 'Lithuania', 'Luxembourg', 'Malta', 'Netherlands', 'Poland', 'Portugal', 'Romania' , 
+'Slovakia', 'Slovenia', 'Spain', 'Sweden']
 
 total_price = 0
 service_total_price = 0
 
 while True:
-    
+
     service_name = input('Enter service name: ')
 
     if service_name == 'end':
